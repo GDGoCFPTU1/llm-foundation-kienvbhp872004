@@ -299,5 +299,6 @@ if __name__ == "__main__":
     print("\n=== Starting Gemini 2.5 Chatbot (type 'quit' to exit) ===")
     try:
         streaming_chatbot()
+        
     except Exception as e:
         print(f"Chatbot failed to start: {e}")
